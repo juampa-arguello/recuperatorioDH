@@ -101,7 +101,7 @@ module.exports = {
             usuario_id: idUsuario
         })
         .then(function () {
-            res.redirect('/misProductos')// redirecciona a mis productos
+            res.redirect('/productos/misProductos')// redirecciona a mis productos
         })
        
 
